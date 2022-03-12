@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    
+}
+
+#back-room-icon{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    max-width: 5%;
+    height: auto;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+#back-room-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    font-size: 50px;
+    color: rgba(7, 68, 63, 0.653);
+    font-weight: 400;
+}
+
+#title_icon {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 20%;
+}
+
+#showlist {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+
+.col {
+    height: 500px;
+    width: 400px;
+}
+
+
+
+ 
+h2 {
+    height: 8%;
+   
+    color: rgba(7, 68, 63, 0.653);
+    font-size: 20px;
+    margin-left:120px;
+  
+  
+}
+
+h3 {
+    color: rgba(7, 68, 63, 0.653);
+    font-size: 25px;
+    height:60px;
+}
+
+#order {
+    margin-top: 80px;
+}
+
+.image-frame {
+    height: 60px;
+    width: 60px;
+}
+
+.backbutton {
+    height: 60px;
+    width: 150px;
+    background-color: rgb(184, 228, 215);
+    text-align: center;
+    border-color: rgb(78, 139, 134);
+    color: rgba(7, 68, 63, 0.653);
+    transition-duration: 0.4s;
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+
+.backbutton:hover {
+    background-color: rgb(78, 139, 134);
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    border-color:  rgb(184, 228, 215);
+}
+
+#back {
+    text-align: center;
+    height: max-content;
+    margin-top: 30px;
+}
+
+h4 {
+    height:3px;
+    margin-top:18px;
+    
+    color: rgba(54, 90, 136, 0.653);
+    font-size: 20px;
+}
+h5 {
+    height:20px;
+    margin-top:20px;
+    margin-left:25px;
+    color: rgba(54, 90, 136, 0.653);
+    font-size: 20px;
+}
+
+

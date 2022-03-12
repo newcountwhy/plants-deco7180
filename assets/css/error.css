@@ -1,0 +1,10 @@
+#errorbox {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 40%;
+}
+
+img {
+    width: 100%;
+}

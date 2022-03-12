@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: #0f6674;
+    padding-bottom: 15px;
+}
+
+p:before{
+    content:"\2600 ";
+    color:orange;
+}
+img{
+    width: 5%;
+    top: 2%;
+    left: 2%;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#refer {
+    padding-left: 50px;
+}
+p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}

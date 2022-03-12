@@ -1,0 +1,92 @@
+* {
+
+    font-family: 'Indie Flower';
+    text-align: -webkit-center;
+}
+
+#back-room-icon{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    max-width: 5%;
+    height: auto;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+#back-room-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(223, 241, 253);
+    border: 5px solid rgb(62, 129, 173);
+    border-radius: 20px;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    padding: 30px;
+}
+
+#text_center {
+
+    padding-bottom: 20px;
+    height: 50px;
+    font-size: 50px;
+    color: rgba(7, 68, 63, 0.653);
+    font-weight: 400;   
+}
+
+.input_group label {
+    font-size: 15px;
+    color: rgba(7, 68, 63, 0.653);
+    font-weight: 15px; 
+}
+
+.input_group {
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+   
+}
+
+#loginframe {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#loginbutton {
+    height: 45px;
+    width: 400px;
+    background-color: rgb(184, 228, 215);
+    text-align: center;
+    border-color: rgb(78, 139, 134);
+    color: rgba(7, 68, 63, 0.653);
+    transition-duration: 0.4s;
+    font-size: 25px;
+    border-radius: 30px;
+
+}
+
+#loginbutton:hover {
+    background-color: rgb(78, 139, 134);
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    border-color:  rgb(184, 228, 215);
+}
+
+.form-control {
+    border-radius: 20px;
+    font-weight: 10px;
+}
+
+

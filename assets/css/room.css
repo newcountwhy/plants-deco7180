@@ -1,0 +1,102 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+#door_icon{
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  max-width: 18%;
+  height: auto;
+  transition: all 0.5s;
+}
+#painting_icon{
+  position: absolute;
+  top: 23%;
+  left: 28%;
+  max-width: 14%;
+  height: auto;
+  transition: all 0.5s;
+}
+#window_icon{
+  position: absolute;
+  top: 0;
+  right: 19%;
+  max-width: 37%;
+  height: auto;
+  transition: all 0.5s;
+}
+#badge_icon{
+  position: absolute;
+  top: 30%;
+  right: 1%;
+  max-width: 16%;
+  height: auto;
+  transition: all 0.5s;
+}
+#aboutus {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  max-width: 10%;
+  height: auto;
+  transition: all 0.5s;
+ 
+}
+#aboutpage {
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  max-width: 10%;
+  height: auto;
+  transition: all 0.5s;
+}
+
+
+
+#login_icon{
+  position: absolute;
+  top: 55%;
+  right: 55%;
+  max-width: 16%;
+  height: auto;
+  transition: all 0.5s;
+}
+
+#login {
+  height: 50px;
+  width:50px;
+}
+
+
+
+img:hover{
+  transform: scale(1.05);
+}
+
+.tooltip-inner {
+  background-color: slateblue!important;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color:slateblue;
+}
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: slateblue !important;
+}
+
+.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  border-right-color: slateblue !important;
+}
+
+
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: slateblue !important;
+}
+
+
+.bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+  border-left-color: slateblue !important;
+}

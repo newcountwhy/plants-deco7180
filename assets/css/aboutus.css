@@ -1,0 +1,67 @@
+* {   
+    font-family: 'Indie Flower', cursive;
+    color: rgb(27, 99, 147);
+    
+}
+
+#aboutus {
+   
+    text-align: center;
+    background-color: rgb(223, 241, 253);
+    border: 5px solid rgb(62, 129, 173);
+    border-radius: 20px;
+    width: 50%;
+    height: 1000px;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    padding: 30px;
+}
+
+#back-room-icon{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    max-width: 5%;
+    height: auto;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+#back-room-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#back-room-icon img {
+    width: 100%;
+}
+
+hr {
+    border: 3px solid rgb(62, 129, 173);
+    border-radius: 5px;
+}
+
+.frame {
+    padding-bottom: 30px;
+   
+}
+
+p {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
